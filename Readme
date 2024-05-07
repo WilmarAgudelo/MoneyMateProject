@@ -1,1 +1,38 @@
+## Money mate back 
+- Se debe descargar cada una de las librerias para el correcto funcionamiento de python
+ > pandas 
+ > seaborn
+ > matplotlib.pyplot
+ > sklearn 
+ > sklearn.model_selection 
+ > sklearn.neighbors
+ > sklearn.metrics 
+- Debido a que es un prototipo se tiene configuradas las respuesta con el fin de cumplir lo planteado
+  de crear un chatbot que de algunas respuesta segun lo preguntado y realizar un analisis implementando 
+  machine learning, adiccionalmente se crea un test plan con jmeter con el fin de realizar las pruebas
+  de aceptación.
+
+- Para iniciar el servidor es necesario ubicarse en la carpeta src
+ #  comando para iniciar el servidor 
+ c:/Users/lenovo/Documents/repositorio/MoneyMateProject/money_mate_back/src/main.py
+
+## Money mate front  
+- Aplicacion web realizad con vue.js 3.0, que comprende dos vistas principales. La primera es la vista de   
+  bienvenida al usuario y proporcionar una visión general del propósito del chatbot. La segunda vista es la del chat, donde el usuario puede interactuar de manera intuitiva con el sistema financiero.
+- Es necesario tener instalado node.js  
+- Se debe intalar los compomentes npm
+- Debe estar encidod el servidor con el chatbot en el backend 
+
+
+
+## Ejecucion Test Plan
+- Debe estar instalado jmeter y java
+- Es neceario ejecutar ubicarse en la carpeta test.
+- Validar que la ruta del archivo coincidan en el path 
+- Para ejecutar el text Plan se debe tener en cuenta el nombre del archivo .jmx 
+- Tambien se debe tener en cuenta la ruta donde quedara el resultado y nombre del archivo 
+
+#  comando para ejecutar el test plan 
+- "C:\JMeter\apache-jmeter-5.6.3\bin\jmeter.bat" -n -t Test_Plan_Money_Mate.jmx -l test_results.jtl
+
 
