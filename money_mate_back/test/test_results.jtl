@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1715093644550,21,tx_saludo,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:5000 [/127.0.0.1] failed: Connection refused: connect,Thread Group 1-1,text,false,,2594,0,1,1,http://127.0.0.1:5000/get-response,0,0,21
+1715093644583,1,tx_nombre,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:5000 [/127.0.0.1] failed: Connection refused: connect,Thread Group 1-1,text,false,,2594,0,1,1,http://127.0.0.1:5000/get-response,0,0,1
+1715093644585,0,tx_salario,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:5000 [/127.0.0.1] failed: Connection refused: connect,Thread Group 1-1,text,false,,2594,0,1,1,http://127.0.0.1:5000/get-response,0,0,0
+1715093644586,1,tx_gastos,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:5000 [/127.0.0.1] failed: Connection refused: connect,Thread Group 1-1,text,false,,2594,0,1,1,http://127.0.0.1:5000/get-response,0,0,1
+1715093644587,1,Tx_final,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:5000 [/127.0.0.1] failed: Connection refused: connect,Thread Group 1-1,text,false,,2594,0,1,1,http://127.0.0.1:5000/get-response,0,0,1
+1715093644589,1,tx_saludo,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:5000 [/127.0.0.1] failed: Connection refused: connect,Thread Group 1-1,text,false,,2594,0,1,1,http://127.0.0.1:5000/get-response,0,0,1
+1715093644591,0,tx_nombre,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:5000 [/127.0.0.1] failed: Connection refused: connect,Thread Group 1-1,text,false,,2594,0,1,1,http://127.0.0.1:5000/get-response,0,0,0
+1715093644592,1,tx_salario,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:5000 [/127.0.0.1] failed: Connection refused: connect,Thread Group 1-1,text,false,,2594,0,1,1,http://127.0.0.1:5000/get-response,0,0,1
+1715093644594,1,tx_gastos,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:5000 [/127.0.0.1] failed: Connection refused: connect,Thread Group 1-1,text,false,,2594,0,1,1,http://127.0.0.1:5000/get-response,0,0,1
+1715093644596,0,Tx_final,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 127.0.0.1:5000 [/127.0.0.1] failed: Connection refused: connect,Thread Group 1-1,text,false,,2594,0,1,1,http://127.0.0.1:5000/get-response,0,0,0
+1715093722644,36,tx_saludo,200,OK,Thread Group 1-1,text,true,,268,204,1,1,http://127.0.0.1:5000/get-response,27,0,19
+1715093722687,3,tx_nombre,200,OK,Thread Group 1-1,text,true,,253,206,1,1,http://127.0.0.1:5000/get-response,3,0,1
+1715093722690,4,tx_salario,200,OK,Thread Group 1-1,text,true,,264,207,1,1,http://127.0.0.1:5000/get-response,3,0,2
+1715093722694,3,tx_gastos,200,OK,Thread Group 1-1,text,true,,246,206,1,1,http://127.0.0.1:5000/get-response,3,0,1
+1715093722698,16,Tx_final,200,OK,Thread Group 1-1,text,true,,288,201,1,1,http://127.0.0.1:5000/get-response,16,0,2
+1715093722715,3,tx_saludo,200,OK,Thread Group 1-1,text,true,,268,204,1,1,http://127.0.0.1:5000/get-response,3,0,1
+1715093722719,3,tx_nombre,200,OK,Thread Group 1-1,text,true,,253,206,1,1,http://127.0.0.1:5000/get-response,3,0,1
+1715093722723,3,tx_salario,200,OK,Thread Group 1-1,text,true,,264,207,1,1,http://127.0.0.1:5000/get-response,3,0,1
+1715093722727,3,tx_gastos,200,OK,Thread Group 1-1,text,true,,246,206,1,1,http://127.0.0.1:5000/get-response,3,0,1
+1715093722731,14,Tx_final,200,OK,Thread Group 1-1,text,true,,288,201,1,1,http://127.0.0.1:5000/get-response,14,0,1
