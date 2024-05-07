@@ -12,8 +12,8 @@ from sklearn.metrics import classification_report
 class Logica:
 
     def process_file(self):
-        df = pd.read_csv("money_mate_back/util/Datosendeudamiento.csv", sep=";")
-        # Resto del código de análisis...
+        df = pd.read_csv("C:/Users/lenovo/Documents/repositorio/MoneyMateProject/money_mate_back/util/Datosendeudamiento.csv", sep=";")
+        # Resto del código de análisis... 
 
         variables_X = ['Ingresos_mensuales', 'Gastos_mensuales','imprevistos_mes']
         X = df[variables_X].values
